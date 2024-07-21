@@ -1,0 +1,30 @@
+#result {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  color: #333;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+  display: none; /* Hidden by default */
+  position: relative;
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.gacha-result-animation {
+  animation: bounceIn 0.5s ease-out;
+}
