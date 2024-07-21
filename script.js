@@ -22,6 +22,12 @@ function gacha() {
       return;
     }
 
+    // Check if the user has more money
+    if (userEnteredMoney > 20) {
+      alert("จำนวนน้ำคัมเกินกำหนด");
+      return;
+    }
+    
     // Calculate the total chances
     const totalChances = prizes.reduce((sum, [_, chance]) => sum + chance, 0);
 
