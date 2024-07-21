@@ -1,3 +1,46 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+h1 {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.gacha-container {
+  padding: 20px;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
 #result {
   padding: 10px;
   border-radius: 5px;
@@ -9,6 +52,24 @@
   margin-top: 10px;
   display: none; /* Hidden by default */
   position: relative;
+}
+
+.message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #f00; /* Red color for error messages */
+  border: 1px solid #ddd;
+  font-size: 16px;
+  display: none; /* Hide by default */
+  text-align: center;
+}
+
+.info-text {
+  font-size: 14px;
+  color: #666; /* สีเทาอ่อนสำหรับคำกำกับ */
+  margin-top: 5px;
 }
 
 @keyframes bounceIn {
